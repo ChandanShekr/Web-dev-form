@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="heading">Survey Form</div>
+    <div class="heading"><h3><strong>Survey Form</strong></h3></div>
 
     <div class="form-details">
         <form class="input-fields">
@@ -27,37 +27,41 @@
             </label><br> <br>
             <input type="radio" id="Btech" name="Course" value="Btech" class="input">
             <label for="Btech">Btech</label><br>
-            <input type="radio" id="Mtech" name="Course" value="Mtech" class="input">
-            <label for="Mtech">Mtech</label><br>
-            <label for="cars">Choose a car:</label>
-
             <select name="Btech" id="Btech" class= "input">
               <option value="CSE Core">CSE Core</option>
               <option value="ECE Core">ECE Core</option>
               <option value="IT">IT</option>
               <option value="Mechanical">Mechanical</option>
             </select>
-              <select name="Mtech" id="Mtech" class= "input">
-              <option value="CSE in Cybersecurity">CSE in Cybersecurity</option>
-              <option value="Mechanical in Automation">Mechanical in Automation</option>
+            <br>
+            <input type="radio" id="Mtech" name="Course" value="Mtech" class="input">
+            <label for="Mtech">Mtech</label><br>
+            <select name="Mtech" id="Mtech" class="input">
+                <option value="CSE in AI and ML">CSE in AI and ML</option>
+                <option value="CSE in Data Analytics">CSE in Data Analytics</option>
+                <option value="Mechanical (Automation)">Mechanical (Automation)</option>
             </select>
-            <input type="checkbox" id="Category 1" name="Category 1" value="VIT Vellore">
-            <label for="Category 1"> VIT Vellore</label><br>
-            <input type="checkbox" id="Category 2" name="Category 2" value="VIT Vellore">
-            <label for="Category 2"> VIT Vellore</label><br>
-            <input type="checkbox" id="Category 3" name="Category 3" value="VIT Vellore">
-            <label for="Category 3"> VIT Vellore</label><br>
-
+            <br>
+            <input type="radio" id="VIT Vellore" name="Campus" value="VIT Vellore" class="input">
+            <label for="VIT Vellore"> VIT Vellore</label><br>
+            <input type="radio" id="VIT Chennai" name="Campus" value="VIT Chennai" class="input">
+            <label for="VIT Chennai"> VIT Chennai</label><br>
+            <input type="radio" id="VIT Bhopal" name="Campus" value="VIT Bhopal" class="input">
+            <label for="VIT Bhopal"> VIT Bhopal</label>
+            <br>
             <label for="q1Input">Brief on your current technical knowledge: <br>
             <textarea name="ans1" cols="35" rows="5" class="input" id="curKnowledge"></textarea>
             </label><br>
 
-            <label for="q2Input">What do you aim to achieve? <br>
+            <label for="q2Input">What do you aim to achieve in life? <br>
                 <textarea name="ans2" cols="35" rows="5" class="input" id="aim"></textarea>
             </label><br>
 
-            <label for="q3Input">Describe your dream project in 50 words: <br>
-            <textarea name="ans3" cols="35" rows="5" class="input" id="dreamProject"></textarea></label>
+            <label for="q2Input">Share any amazing project ideas you have to win prizes !!! <br>
+                <textarea name="ans2" cols="35" rows="5" class="input" id="aim"></textarea>
+            </label><br>
+
+
             <button type="submit" class="button" id="submitBtn">SUBMIT</button>
         </form>
     </div>
